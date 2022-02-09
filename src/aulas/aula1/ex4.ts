@@ -9,5 +9,6 @@
  * Troque "{}" pelo nome dado a variável
  *
  */
+const carro = undefined;
 
-export default {};
+export default carro;

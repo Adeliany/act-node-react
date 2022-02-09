@@ -5,5 +5,11 @@
  * Faça a declaração da função.
  * Troque "{}" pelo nome dado a função
  */
+function maior(a: number, b: number) :boolean {
+  if (a > b) {
+    return true;
+  }
+  return false;
+}
 
-export default {};
+export default maior;

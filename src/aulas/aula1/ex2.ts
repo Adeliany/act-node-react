@@ -9,5 +9,6 @@
  * Troque "{}" pelo nome dado a variável
  *
  */
+const morango = false;
 
-export default {};
+export default morango;

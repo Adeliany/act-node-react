@@ -10,5 +10,11 @@
  */
 
 // code here
+function triangulo(a: number, b: number, c: number): boolean {
+  const ladoA: boolean = Math.abs(b - c) < a && a < b + c;
+  const ladoB: boolean = Math.abs(a - c) < b && b < a + c;
+  const ladoC: boolean = Math.abs(a - b) < c && c < a + b;
+  return (ladoA && ladoB && ladoC);
+}
 
-export default {};
+export default triangulo;

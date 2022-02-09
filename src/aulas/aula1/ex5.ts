@@ -9,5 +9,6 @@
  * Troque "{}" pelo nome dado a variável
  *
  */
+const bicicleta = null;
 
-export default {};
+export default bicicleta;

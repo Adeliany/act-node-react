@@ -9,5 +9,6 @@
  * Troque "{}" pelo nome dado a variável
  *
  */
+const idade = 30;
 
-export default {};
+export default idade;
